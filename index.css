@@ -1,3 +1,80 @@
 body {
     margin: 0;
+    background: #1F2937;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    background: #6943FF;
+    min-height: 19rem;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header-title {
+    margin: 0;
+}
+
+#num-input {
+    height: 5rem;
+    width: 7rem;
+    background: none;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+}
+
+#num-input::-webkit-outer-spin-button,
+#num-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#num-input::placeholder {
+    color: white;
+}
+
+#convert-btn {
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 5px;
+    color: #3D3D3D;
+    font-size: 1rem;
+}
+
+#unit-container {
+    min-height: 30rem;
+    padding: 0.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.unit-card {
+    background: #273549;
+    margin: 0 2rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.unit-title {
+    color: #CCC1FF;
 }
