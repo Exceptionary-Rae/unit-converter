@@ -72,9 +72,15 @@ body::-webkit-scrollbar {
     height: 7rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .unit-title {
     color: #CCC1FF;
+    margin: 0;
+}
+
+.unit {
+    margin: 0;
 }
